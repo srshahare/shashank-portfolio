@@ -1,10 +1,18 @@
 import "./App.css";
-import Me from './assets/me.svg'
+import Layout from "./containers/Layout";
+import AOS from "aos";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  return <div>
-    <img src={Me} />
-  </div>;
+  AOS.init();
+
+  return (
+    <div className="App">
+      <Router>
+        <Layout />
+      </Router>
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,9 @@
+.portfolio-screen {
+    height: 100vh;
+    padding-top: 3rem;
+}
+
+.portfolio-screen .logo {
+    width: 75px;
+    height: auto;
+}

@@ -1,0 +1,25 @@
+.home-screen h1 {
+  color: var(--themeColor);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.home-screen h1 > span {
+  color: var(--secondText);
+}
+
+.home-screen p {
+  line-height: 30px;
+  font-size: 18px;
+  color: var(--secondText);
+  margin-bottom: 0;
+}
+
+.home-screen .btn {
+  border: 1px solid var(--themeColor);
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 8px 16px;
+}
