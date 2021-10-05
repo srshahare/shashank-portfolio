@@ -1,6 +1,8 @@
 :root {
     --themeColor: #09aeea;
+    --accentColor: #21e1ae;
     --background: linear-gradient(#21e1ae, #09aeea);
     --greyColor: rgb(177, 177, 177);
-    --secondText: rgb(104, 104, 104);
+    --secondText: rgb(119, 119, 119);
+    --textColor: rgb(68, 63, 63);
 }

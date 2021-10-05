@@ -49,6 +49,8 @@ const Home = () => {
       case 4:
         setOpen5(true);
         break;
+      default:
+        return 0;
     }
   };
   const mouseLeaveHandler = (i) => {
@@ -68,6 +70,8 @@ const Home = () => {
       case 4:
         setOpen5(false);
         break;
+      default:
+        return 0;
     }
   };
 
@@ -83,6 +87,8 @@ const Home = () => {
         return isOpen4;
       case 4:
         return isOpen5;
+      default:
+        return 0;
     }
   };
   const findActive = (i) => {
@@ -97,12 +103,14 @@ const Home = () => {
         return isActive4;
       case 4:
         return isActive5;
+      default:
+        return 0;
     }
   };
   const setActive = (i) => {
     switch (i) {
       case 0:
-        history.push("/")
+        history.push("/");
         setActive1(true);
         setActive2(false);
         setActive3(false);
@@ -110,7 +118,7 @@ const Home = () => {
         setActive5(false);
         break;
       case 1:
-        history.push("/about-me")
+        history.push("/about-me");
         setActive1(false);
         setActive2(true);
         setActive3(false);
@@ -118,7 +126,7 @@ const Home = () => {
         setActive5(false);
         break;
       case 2:
-        history.push("/resume")
+        history.push("/resume");
         setActive1(false);
         setActive2(false);
         setActive3(true);
@@ -126,7 +134,7 @@ const Home = () => {
         setActive5(false);
         break;
       case 3:
-        history.push("/portfolio")
+        history.push("/portfolio");
         setActive1(false);
         setActive2(false);
         setActive3(false);
@@ -134,13 +142,15 @@ const Home = () => {
         setActive5(false);
         break;
       case 4:
-        history.push("/blogs")
+        history.push("/blogs");
         setActive1(false);
         setActive2(false);
         setActive3(false);
         setActive4(false);
         setActive5(true);
         break;
+      default:
+        return 0;
     }
   };
 
