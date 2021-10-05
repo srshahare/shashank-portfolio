@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div className="portfolio-screen">
       <div>
         <img className="logo" src={Port} alt="portfolio" />
-        <h1>Portfolio</h1>
+        <h1>Portfolio!</h1>
       </div>
     </div>
   );
