@@ -6,6 +6,7 @@ import { Popover } from "react-tiny-popover";
 import { Route, useHistory } from "react-router-dom";
 import HomeScreen from "../HomeScreen/HomeScreen";
 import Portfolio from "../Portfolio/Portfolio";
+import AboutScreen from "../About/AboutScreen";
 
 const Home = () => {
   const history = useHistory();
@@ -174,6 +175,9 @@ const Home = () => {
       <div className="home-right">
         <Route path="/" exact>
           <HomeScreen />
+        </Route>
+        <Route path="/about-me" exact>
+          <AboutScreen />
         </Route>
         <Route path="/portfolio" exact>
           <Portfolio />
