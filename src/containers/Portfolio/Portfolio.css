@@ -1,79 +1,79 @@
 .portfolio-screen {
-    padding: 1rem;
-    height: 95vh;
-    overflow-y: scroll;
-    background: white;
-    border-radius: 8px;
+  padding: 1rem;
+  height: 95vh;
+  overflow-y: scroll;
+  background: white;
+  border-radius: 8px;
 }
 
 .portfolio-screen .logo {
-    width: 60px;
-    height: auto;
+  width: 60px;
+  height: auto;
 }
 
 .portfolio-screen .header-title {
-    font-weight: bold;
-    color: var(--textColor);
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  font-weight: bold;
+  color: var(--textColor);
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio-screen h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-screen .tag-title {
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-    border-radius: 4px;
-    padding: 8px;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 8px;
 }
 
 .portfolio-screen .tag-title.first {
-    background: #e0f2f1;
+  background: #e0f2f1;
 }
 .portfolio-screen .tag-title.second {
-    background: #f1f8e9;
+  background: #f1f8e9;
 }
 .portfolio-screen .tag-title.third {
-    background: #fff8e1;
+  background: #fff8e1;
 }
 .portfolio-screen .tag-title.fourth {
-    background: #fbe9e7;
+  background: #fbe9e7;
 }
 .portfolio-screen .tag-title.fifth {
-    background: #ede7f6;
+  background: #ede7f6;
 }
 
 .portfolio-screen .tag-title h1 {
-    color: var(--textColor);
-    margin-left: 8px;
+  color: var(--textColor);
+  margin-left: 8px;
 }
 
 .portfolio-screen .collapse-title {
-    font-weight: 700;
-    margin-bottom: 0;
-    font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 1rem;
 }
 .portfolio-screen .collapse-content-para {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .portfolio-screen .collapse-title > span {
-    font-weight: 500;
-    font-size: .9rem;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .portfolio-screen .tag-title img {
-    width: 40px;
-    height: auto;
+  width: 40px;
+  height: auto;
 }
 
 .portfolio-screen .collapse-content h2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .portfolio-screen .collapse-content {
-
+  padding: 0;
 }

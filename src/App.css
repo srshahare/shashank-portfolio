@@ -4,3 +4,24 @@
   height: 100vh;
   background: rgb(247, 247, 247);
 }
+
+/* 
+scrollbar custom */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--grayAccent); 
+  border-radius: 8rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--textLightColor); 
+}
